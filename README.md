@@ -28,7 +28,7 @@ We also want to estimate what is the expected financial loss per county in the e
 
 # Data Cleanup & Exploration
 
-* To answer these questions we determined that we needed 2 basic groups of data:
+* To answer these questions we determined that we needed 4 basic groups of data:
 
 Florida median home values per county
 
