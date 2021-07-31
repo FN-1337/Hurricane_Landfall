@@ -44,6 +44,8 @@ Our goal was to analyze and visualize the data in a way that will make it easy f
 
 This required cleaning, sorting, and organizing the data to allow for it to be joined.
 
+After this, we created several visualizations detailing hurricane paths, probabilities, and correlation to median home values in Floria.
+
 
 # Discussion
 
