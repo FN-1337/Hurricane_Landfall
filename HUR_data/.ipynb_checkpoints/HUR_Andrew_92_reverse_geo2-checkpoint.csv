@@ -1,0 +1,6 @@
+,index,id,name,date,record_identifier,status_of_system,latitude,longitude,maximum_sustained_wind_knots,maximum_pressure,lat/long,address
+29,37966,AL041992,ANDREW,8/23/1992 21:00,L,HU,25.4,-76.6,140,923,"25.4,-76.6",Bermuda Triangle
+31,37968,AL041992,ANDREW,8/24/1992 1:00,L,HU,25.4,-77.8,130,931,"25.4,-77.8","Berry Islands, The Bahamas"
+33,37970,AL041992,ANDREW,8/24/1992 8:40,L,HU,25.5,-80.2,145,926,"25.5,-80.2","The Keyhole, Miami-Dade County, Florida, United States"
+34,37971,AL041992,ANDREW,8/24/1992 9:05,L,HU,25.5,-80.3,145,922,"25.5,-80.3","Miami-Dade County, Florida, United States"
+43,37980,AL041992,ANDREW,8/26/1992 8:30,L,HU,29.6,-91.5,100,956,"29.6,-91.5","St. Mary Parish, Louisiana, United States"
