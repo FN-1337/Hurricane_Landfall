@@ -10,21 +10,17 @@ Ryan Weier
 
 # Core message and hypothesis of our project
 
-The goal of our project is to determine if any correlation can be found between Florida home values per county and the probability of a hurricane hitting that county.
-
-Additionally we are hoping to determine which area has the least probability of getting hit by a hurricane and also correlate home values in that county.
+The goal of our project is to examine Florida Landfalling Hurricanes and analyze associated Real Estate prices in those counties.
 
 # Questions & Data
 
-We want to understand the true financial impact that hurricanes have on local economies.
-
-Do hurricanes truly have an impact on home values?
+We want to understand the frequency and severity of landfalling hurricanes in Florida.
 
 Does an area with a higher probability of a hurricane or major hurricane hitting always have a higner median home value?
 
 Is this due to additional construction costs involved in building a safe structure in these areas or are there other factors involved such as insurance costs etc.
 
-We also want to estimate what is the expected financial loss per county in the event that a major hurricane hits there.
+We also want to estimate what is the expected financial loss for Florida in the event that a major hurricane hits there.
 
 # Data Cleanup & Exploration
 
@@ -51,9 +47,7 @@ After this, we created several visualizations detailing hurricane paths, probabi
 
  We found several interesting correlations in our data.
  
- First, we found that an increase in the probability of a hurricane making landfall does correlate with higher median home values.
- 
- The best example in our data is Monroe County, which has the highest chance of a hurricane landfall and also has a signicantly higher median home value than the other counties in Florida.
+ First, we found that an increase in the probability of a hurricane making landfall likely correlates with higher median home values, however there was not enough time for us to complete this analysis in depth. However, it is interesting to note areas such as  Monroe County, which has the highest chance of a hurricane landfall and also has a signicantly higher median home value than the other counties in Florida.
 
 # Postmortem
 
@@ -61,13 +55,13 @@ After this, we created several visualizations detailing hurricane paths, probabi
   
  Most of our real difficulties occured in the data mining and data cleaning phases of this project.
  
- First, we had to source the data for home prices in Florida per county which was simple enough.
+ We had to source the data for home prices in Florida per county which was simple on an average basis (National Association of Realtors) but getting the total home sales by county was not something we had access to.
  
- Then we had to come up with the data for Hurricane landfalls in Florida over the last several decades, which also wasn't very hard once we knew where to look.
+ Then we had to come up with the data for Hurricane landfalls in Florida over the last several decades, which is readily avalible in the National Hurricane Center database (HURDAT) and pulled historical losses from research reports ("Hurricane and Damage Costs", by James Elsner, "Florida PUblic Hurricane Loss Model", by Shahid Hamid Ph.D.) to create our simulation of events.
  
  The most difficult part was combing through the data, determining what would benefit our analysis and what wouldn't, and then merging this data with the home value data.
  
- We sorted through lists, cleaned the data columns and formatting, and joined it with the real estate data in a way that would allow for us to show it in a meaningful visualization.
+ We sorted through lists, cleaned the data columns and formatting, and joined it with the real estate data in a way that would allow for us to show it in a meaningful visualization. We ran a simple simulation to forecast hurricane economic losses. 
   
   * Discuss any additional questions that came up, but which you didn't have time to answer: What would you research next, if you had two more weeks?
   
@@ -75,8 +69,8 @@ After this, we created several visualizations detailing hurricane paths, probabi
   
   Are median home values correlated with total loss claims?
   
-  Which county has suffered the most property damage in the last 50 years?
+  Does the county property damage history have a correlation with median home values and total home sales?
   
-  Does the county property damage history have a correlation with median home values?
+  How much of these increases in losses can be attributed to global warming?
   
   
